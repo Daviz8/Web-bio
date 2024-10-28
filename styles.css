@@ -1,0 +1,238 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather',serif;
+    background-color: white;
+    line-height: 2;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+h1{ margin: 50px, auto, 0, auto;
+    font-family: 'Kurale'  , serif;
+    font-size: 4rem;
+    color: white;
+    transition: all 5s ease-out;
+}
+
+
+li{
+    text-decoration: none;
+    list-style-type:none;
+
+}
+h1:hover,
+h1:focus {
+  color: #ffff;
+}
+
+.top-container{
+    background-color:#003580;
+    position: relative;
+    padding: 150px;  
+}
+
+.my-image{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    }
+    .my-image:hover{
+        transform: scale(1.5);
+        transform-style: preserve-3d;
+    }
+
+.p-header{ Bottom: 100px;
+    line-height: 1.5;
+    margin-top: 0;
+    color:#ffffff;
+    font-size: clamp( 2.5rem 10vw ,2.5rem);
+transition: all 2s ease-out;
+font-weight: 600;
+}
+
+
+.p-header:hover,
+.p-header:focus {
+color: #ffff;
+
+}
+ /*CONTENT*/
+
+.images{ width: 100px;
+    height: 100px;
+    float: right;
+    margin-right: 30px;   
+-webkit-transition-timing-function: cubic-bezier(0.23, 1, 0.320, 1);
+-webkit-transition-duration: 0.5s;
+
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+    animation: slideDown 1s ease-out;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-family: 'Paytone One', sans-serif;
+    color: #003580;
+}
+
+.contact-info {
+    font-size: 0.9em;
+    color: #777;
+}
+
+h2 {
+    color: #003580;
+    animation: fadeIn 6s ease-in-out;
+    border-bottom: 2px solid #003580;
+    padding: 1rem;
+    margin-bottom: 15px;
+    font-family: 'Paytone One', sans-serif;
+    
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.job {
+    margin-bottom: 20px;
+    animation: fadeInUp 1s ease-in-out;
+}
+
+.job h3 {
+    margin: 0;
+    font-size: clamp(1.5rem , 7vw , 1.5rem);
+    color: #003580;
+}
+
+.job .date {
+    font-size: 0.9em;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.education, .projects, .mentorship, .others {
+    animation: fadeInUp 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideDown {
+    from { transform: translateY(-50px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes fadeInUp {
+    from { transform: translateY(30px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+
+.social-link{
+    width: clamp(30px, 2vw, 30px);
+    height: clamp(30px, 2vw, 30px);
+    margin-left: 40px;
+    margin-top: 20px;
+
+}
+hr{ border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+a{ color: #003580;
+   font-family:'montserrat' sans-serif;
+    margin: 10px;
+    text-decoration: none;
+    
+}
+
+
+#carousel {
+    width: 300px;
+    overflow: hidden;
+    margin: auto;
+}
+.carousel-inner {
+    display: flex;
+    width: 900px; /* 3 slides of 300px each */
+    transition: transform 0.5s ease-in-out;
+}
+.carousel-item {
+    width: 300px;
+    flex-shrink: 0;
+}
+
+.cert{
+    list-style:square;
+}
+        
+.invite{
+color: #003580;
+animation: fadeIn 6s ease-in-out;
+border-bottom: 2px solid #003580;
+padding-bottom: 5px;
+margin-bottom: 15px;
+font-family: 'Paytone One', sans-serif;
+}
+
+.copyright{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0px;
+    margin-top: 50px;
+}
+
+.footer-icons{ height: 5vh;
+    padding-top: 5px;
+    position: relative;
+    top: 20px;
+}
+    .footer-icons:hover{
+        transform: scale(1.5);
+    }
+
+
+.footer{
+    background-color: #16213E;
+        padding: 20px 10px;
+        height: 25vh;
+    }
+
+
+/*ANIMATIONS*/
+
+.hidden{
+opacity: 0;
+filter: blur(5px);
+transform: translateX(-100%);
+transition: all 1.5s ;
+}
+
+.show{
+    filter: blur(0);
+    transform: translateX(0);
+opacity: 1;
+
+}
