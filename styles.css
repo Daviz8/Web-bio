@@ -47,6 +47,7 @@ h1:focus {
         transform-style: preserve-3d;
     }
 
+
 .p-header{ Bottom: 100px;
     line-height: 1.5;
     margin-top: 0;
@@ -188,7 +189,7 @@ a{ color: #003580;
 }
 
 .cert{
-    list-style:square;
+    list-style:none;
 }
         
 .invite{
@@ -238,4 +239,130 @@ transition: all 1.5s ;
     transform: translateX(0);
 opacity: 1;
 
+}
+
+
+/* Blog*/
+
+
+.Blog{
+    margin: 0;
+  
+
+}
+
+.Blog-pag{
+height: 300px;
+width: 50%;
+padding: 1rem;
+margin: auto;
+margin-top: 50px;
+box-shadow: #777;
+border-color: #4b4848;
+
+
+}
+
+
+.vid{
+    height: 300px;
+    width: 50%; 
+    object-fit:contain;
+
+
+}
+
+@media (max-width: 768px) { 
+    .Blog-pag {
+        padding: 0.5rem;
+        width: 80%; 
+        height: auto; /* Adjust height to auto for better responsiveness */
+        margin: 20px auto; /* Adjust margins as needed */ 
+    }
+
+    .vid {
+        padding: 1rem;
+        width: 80%; 
+        height: auto; /* Adjust height to auto for better responsiveness */ 
+    }
+}
+
+.text{
+    margin-left: 20px;
+    font-size: 1.5rem;
+    color: black;
+    font-optical-sizing: auto;
+    font-family: "Economica",  serif;
+    justify-content: center;
+    text-align: justify;
+    padding: 2rem;
+    font-style:normal;
+    font-weight: bold;
+    line-height: 2.5;
+}
+/* Animation for the div */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  /* Animation for the images */
+  @keyframes scaleUp {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.1);
+    }
+  }
+  
+  .IMg {
+    margin: auto;
+     padding: 2rem;    /* Add fade-in animation */
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .img {
+    height: clamp( 300px ,3vw , 300px);
+    width: clamp( 300px , 3vw , 300px);
+    object-fit: cover;
+    margin-left: 10px;
+    border: solid;
+  
+    /* Transition for hover effect */
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Hover effect for images */
+  .img:hover {
+    transform: scale(1.1); /* Scale up the image slightly on hover */
+  }
+
+  .hello{
+    color:#003580;
+    font-weight: bold;
+    font-style: normal;
+  }
+
+.pur{
+    color: purple;
+    font-weight: bold;
+    font-style: normal; 
+}
+.r{
+    color:red;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.g{
+    color:green;
+    font-weight: bold;
+    font-style: normal;
 }
