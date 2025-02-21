@@ -75,3 +75,4 @@ $(document).ready(function(){
     // Stop the auto-slide when the user hovers over the carousel
     $('#carousel').hover(stopAutoSlide, startAutoSlide);
 });
+
