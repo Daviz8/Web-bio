@@ -33,7 +33,7 @@ h1:focus {
 }
 
 .top-container{
-    background-color:  		#2E2E2E;
+    background-color:  #003580;
     position: relative;
     padding: 150px;  
 }
@@ -106,7 +106,7 @@ color: #ffff;
     margin: 0;
     font-size: 2.5em;
     font-family: 'Paytone One', sans-serif;
-    color: #6E6E6E;
+    color: #003580;
 }
 
 .contact-info {
@@ -115,9 +115,9 @@ color: #ffff;
 }
 
 h2 {
-    color: #6E6E6E;
+    color: #003580;
     animation: fadeIn 6s ease-in-out;
-    border-bottom: 2px solid #6E6E6E;
+    border-bottom: 2px solid #003580;
     padding: 1rem;
     margin-bottom: 15px;
     font-family: 'Paytone One', sans-serif;
@@ -137,7 +137,7 @@ ul {
 .job h3 {
     margin: 0;
     font-size: clamp(1.5rem , 7vw , 1.5rem);
-    color: #6E6E6E;
+    color: #003580;
 }
 
 .job .date {
@@ -179,7 +179,7 @@ hr{ border: dotted #EAF6F6 6px;
     margin: 100px auto;
 }
 
-a{ color: #6E6E6E;
+a{ color: #003580;
    font-family:'montserrat' sans-serif;
     margin: 10px;
     text-decoration: none;
@@ -207,9 +207,9 @@ a{ color: #6E6E6E;
 }
         
 .invite{
-color: #6E6E6E;
+color: #003580;
 animation: fadeIn 6s ease-in-out;
-border-bottom: 2px solid #6E6E6E;
+border-bottom: 2px solid #003580;
 padding-bottom: 5px;
 margin-bottom: 15px;
 font-family: 'Paytone One', sans-serif;
@@ -359,7 +359,7 @@ border-color: #4b4848;
   }
 
   .hello{
-    color:#6E6E6E;
+    color:#003580;
     font-weight: bold;
     font-style: normal;
   }
