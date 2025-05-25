@@ -21,7 +21,9 @@ h1{ margin: 50px, auto, 0, auto;
 li{
     text-decoration: none;
     list-style-type:none;
-    font-size: clamp( 1.5rem 10vw ,1.5rem);
+    font-size: clamp( 1.5rem 20vw ,1.5rem);
+      font-family: "Montserrat", sans-serif;
+      font-weight: bolder;
 
 
 }
@@ -52,11 +54,23 @@ h1:focus {
     line-height: 1.5;
     margin-top: 0;
     color:#ffffff;
-    font-size: clamp( 2.5rem 10vw ,2.5rem);
+    font-size: clamp( 2.5rem 20vw ,2.5rem);
 transition: all 2s ease-out;
 font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
 }
 
+.p-head{
+  line-height: 1.5;
+    margin-top: 0;
+    color:black;
+    font-size: clamp( 2.5rem 20vw ,2.5rem);
+transition: all 2s ease-out;
+font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+}
 
 .p-header:hover,
 .p-header:focus {
